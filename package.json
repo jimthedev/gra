@@ -1,0 +1,32 @@
+{
+  "name": "gra",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimthedev/gra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimthedev/gra/issues"
+  },
+  "homepage": "https://github.com/jimthedev/gra#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "peerDependencies": {
+    "graphql": "^0.7.0"
+  }
+}
