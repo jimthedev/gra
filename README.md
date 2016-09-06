@@ -49,6 +49,7 @@ g.non // ==> GraphQLNonNull,
 // Medium syntax
 g.identifier // ==> GraphQLID,
 g.integer // ==> GraphQLInt,
+g.float // ==> GraphQLFloat,
 g.string // ==> GraphQLString,
 g.boolean // ==> GraphQLBoolean,
 g.object // ==> GraphQLObjectType,
@@ -63,7 +64,7 @@ g.nonNull // ==> GraphQLNonNull,
 ```
 So, using `g.i` or `g.int` or `g.integer` is the same as using `GraphQLInt`.
 
-You can mix and match micro, sort, and medium syntax. They are all provided in various forms for convenience.
+You can mix and match micro, short, and medium syntax. They are all provided in various forms for convenience.
 
 Each of the above can be used in place of its [more verbose cousin](http://graphql.org/docs/api-reference-type-system/).
 
