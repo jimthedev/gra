@@ -48,6 +48,8 @@ var gra = {
   nn: gqlType.GraphQLNonNull,
   non: gqlType.GraphQLNonNull,
   nonNull: gqlType.GraphQLNonNull,
+
+  schema: gqlType.GraphQLSchema,
 }
 
 module.exports = gra;

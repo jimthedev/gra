@@ -20,6 +20,7 @@ describe('gra', function() {
       expect(g.sc).to.equal(t.GraphQLScalarType);
       expect(g.if).to.equal(t.GraphQLInterfaceType);
       expect(g.nn).to.equal(t.GraphQLNonNull);
+      expect(g.schema).to.equal(t.GraphQLSchema);
     });
   });
   describe('small', function() {
@@ -37,6 +38,7 @@ describe('gra', function() {
       expect(g.scal).to.equal(t.GraphQLScalarType);
       expect(g.inter).to.equal(t.GraphQLInterfaceType);
       expect(g.non).to.equal(t.GraphQLNonNull);
+      expect(g.schema).to.equal(t.GraphQLSchema);
     });
   });
   describe('medium', function() {
@@ -54,6 +56,7 @@ describe('gra', function() {
       expect(g.scalar).to.equal(t.GraphQLScalarType);
       expect(g.interface).to.equal(t.GraphQLInterfaceType);
       expect(g.nonNull).to.equal(t.GraphQLNonNull);
+      expect(g.schema).to.equal(t.GraphQLSchema);
     });
   });
 });

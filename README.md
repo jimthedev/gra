@@ -30,6 +30,7 @@ g.in // ==> GraphQLInputObjectType,
 g.sc // ==> GraphQLScalarType,
 g.if // ==> GraphQLInterfaceType,
 g.nn // ==> GraphQLNonNull,
+g.schema // ==> GraphQLSchema,
 
 // Short syntax
 g.ident // ==> GraphQLID,
@@ -45,6 +46,7 @@ g.input // ==> GraphQLInputObjectType,
 g.scal // ==> GraphQLScalarType,
 g.inter // ==> GraphQLInterfaceType,
 g.non // ==> GraphQLNonNull,
+g.schema // ==> GraphQLSchema,
 
 // Medium syntax
 g.identifier // ==> GraphQLID,
@@ -60,6 +62,7 @@ g.inputObject // ==> GraphQLInputObjectType,
 g.scalar // ==> GraphQLScalarType,
 g.interface // ==> GraphQLInterfaceType,
 g.nonNull // ==> GraphQLNonNull,
+g.schema // ==> GraphQLSchema,
 
 ```
 So, using `g.i` or `g.int` or `g.integer` is the same as using `GraphQLInt`.
