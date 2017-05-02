@@ -30,6 +30,6 @@
     }
   },
   "peerDependencies": {
-    "graphql": "^0.7.0"
+    "graphql": "^0.9.6"
   }
 }
